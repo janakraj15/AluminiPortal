@@ -1,0 +1,431 @@
+.topBar{
+	background-color: orange;
+	padding:0px;
+}
+.topBar #topbar{
+	padding:5px;
+}
+
+.middleBar{
+	text-align: center;
+	padding:10px !important;
+}
+.middleBar #clubName{
+	text-align:center;
+	border:0px solid black;
+	display:inline-block;
+	float:none;
+}
+.middleBar .clubName1{
+	border:0px solid red;
+	float:none;
+	width: auto;
+}
+.middleBar .clubName1 .clubName1_1{
+	font-weight:bold;
+	border:0px solid black;
+}
+
+.middleBar .clubName1 .clubName1_2{
+	font-weight:700px;
+	border:0px solid black;
+	font-size:2.5em;
+}
+.middleBar .clubName1 .clubName1_3{
+	font-weight: inherit;
+	border:0px solid black;
+	font-size: 2.5em;
+}
+
+.middleBar .clubName1 .clubName1_4{
+	text-align: right;
+	border:0px solid black;
+	margin-right: -100px !important;
+}
+.middleBar .clubLogo{
+	border:0px solid black;
+	display:inline-block;
+	width:auto;
+	float:left
+}
+.middleBar .clubLogo img{
+	height:90px;
+}
+
+.middleBar .nitLogo{
+	display:inline-block;
+	width:200px;
+	border:0px solid black;
+	text-align:right;
+	float:right;
+	height:100px;
+}
+
+.middleBar .nitLogo img{
+	height: 100px;
+}
+.active{
+	color: yellow !important;
+	font-weight: bold;
+}
+.nitName{
+
+}
+
+.newsCorner{
+	width:17%;
+	height:100%;
+	margin-top: 0px;
+	display:inline-block;
+	border:0px solid black;
+	float:left;
+	padding:0px;
+}
+
+.slideShow{
+	width:63%;
+	height:100%;
+	margin-top: 0px;
+	padding:0px;
+	background-color: white;
+	border:0px solid black;
+	margin-bottom:0px;
+	display:inline-block;
+}
+
+.eventPoster{
+	width:20%;
+	height:100%;
+	border:0px solid black;
+	margin-top:0px;
+	float:right;
+	padding:1px;
+	overflow:hidden;
+}
+.updateSectionUL{
+	list-style-type:none;
+	border:0px solid blue;
+	padding:0px;
+	margin:0px;
+	height:400px;
+}
+.updateSection{
+	padding:0px;
+	height:100%;
+	border:0px solid black;
+	position:relative;
+	background-color: white;
+	overflow:hidden;
+	margin:0px;
+}
+@media (max-width:1200px){
+.clubLogo1{
+	/*clear:right;*/
+	margin:0px;
+	border:0px solid black;
+	width:auto;
+	font-size: 0.6em;
+}
+	
+}
+/*Responsive*/
+
+@media (max-width:450px){
+	.middleBar .clubLogo{
+	border:0px solid black;
+	display:block !important;
+	width:auto;
+}
+.middleBar .clubLogo img{
+	height:90px;
+}
+	.middleBar{
+	border:0px solid red;
+	text-align: center;
+	padding:5px !important;
+	/*margin:0px;*/
+}
+.middleBar #clubName{
+	text-align:center;
+	border:0px solid black;
+	display:block !important;
+	float:none;
+}
+.middleBar .clubName1{
+	border:0px solid red;
+	float:none;
+	width: auto;
+}
+.middleBar .clubName1 .clubName1_1{
+	font-weight:bold;
+	border:0px solid black;
+}
+
+.middleBar .clubName1 .clubName1_2{
+	font-weight:700px;
+	border:0px solid black;
+	font-size:2.5em;
+}
+.middleBar .clubName1 .clubName1_3{
+	font-weight: inherit;
+	border:0px solid black;
+	font-size: 2.5em;
+}
+
+.middleBar .clubName1 .clubName1_4{
+	text-align: right;
+	border:0px solid black;
+	margin-right: 0px !important;
+	font-style: italic;
+}
+
+.nitName{
+	display:none;
+}
+
+.middleBar .nitLogo{
+	display:none;
+}
+
+.newsCorner{
+	display:none;
+}
+
+.eventPoster{
+	display:none;
+}
+
+.slideShow{
+	width:100%;
+	height:250px;
+	display:block;
+	margin:1px;
+}
+.newsCorner{
+	width:100%;
+	height:300px;
+	display:block;
+	margin-top:20px;
+	border:0px solid brown;
+	padding:2px;
+}
+.eventPoster{
+	display:none;
+	float:none;
+}
+.updateSectionUL{
+	height:100% auto;
+}
+}
+
+@media (max-width:975px){
+	.middleBar .clubLogo{
+	border:0px solid black;
+	display:inline-block !important;
+	width:auto;
+}
+.middleBar .clubLogo img{
+	height:90px;
+	border:0px solid red;
+	display:inline-block
+}
+	.middleBar{
+	border:0px solid red;
+	text-align: center;
+	padding:5px !important;
+	/*margin:0px;*/
+}
+.middleBar #clubName{
+	text-align:center;
+	border:0px solid black;
+	display:inline-block !important;
+	float:none;
+}
+.middleBar .clubName1{
+	border:0px solid red;
+	float:none;
+	width: auto;
+	display:inline-block;
+}
+.middleBar .clubName1 .clubName1_1{
+	font-weight:bold;
+	border:0px solid black;
+}
+
+.middleBar .clubName1 .clubName1_2{
+	font-weight:700px;
+	border:0px solid black;
+	font-size:2.5em;
+}
+.middleBar .clubName1 .clubName1_3{
+	font-weight: inherit;
+	border:0px solid black;
+	font-size: 2.5em;
+}
+
+.middleBar .clubName1 .clubName1_4{
+	text-align: right;
+	border:0px solid black;
+	margin-right: 0px !important;
+	font-style: italic;
+}
+
+.nitName{
+	display:none;
+}
+
+.middleBar .nitLogo{
+	display:none;
+}
+
+.newsCorner{
+	display:none;
+}
+
+.eventPoster{
+	display:none;
+}
+
+.slideShow{
+	width:100%;
+	height:250px;
+	display:block;
+	margin:1px;
+}
+.newsCorner{
+	width:100%;
+	height:300px;
+	display:block;
+	margin-top:20px;
+	border:0px solid brown;
+	padding:2px;
+}
+.eventPoster{
+	display:none;
+	float:none;
+}
+.updateSectionUL{
+	height:100% auto;
+}
+}
+
+
+@media (max-width:659px){
+	.middleBar .clubLogo{
+	border:0px solid black;
+	display:inline-block !important;
+	width:auto;
+}
+.middleBar .clubLogo img{
+	height:90px;
+	border:0px solid red;
+	display:inline-block;
+}
+	.middleBar{
+	border:0px solid red;
+	text-align: center;
+	padding:5px !important;
+	/*margin:0px;*/
+}
+.middleBar #clubName{
+	text-align:center;
+	border:0px solid black;
+	display:inline-block !important;
+	float:none;
+}
+.middleBar .clubName1{
+	border:0px solid red;
+	float:none;
+	width: auto;
+	display:inline-block;
+}
+.middleBar .clubName1 .clubName1_1{
+	font-weight:bold;
+	border:0px solid black;
+}
+
+.middleBar .clubName1 .clubName1_2{
+	font-weight:700px;
+	border:0px solid black;
+	font-size:2.5em;
+}
+.middleBar .clubName1 .clubName1_3{
+	font-weight: inherit;
+	border:0px solid black;
+	font-size: 2.5em;
+}
+
+.middleBar .clubName1 .clubName1_4{
+	text-align: right;
+	border:0px solid black;
+	margin-right: 0px !important;
+	font-style: italic;
+}
+
+.nitName{
+	display:none;
+}
+
+.middleBar .nitLogo{
+	display:none;
+}
+
+.newsCorner{
+	display:none;
+}
+
+.eventPoster{
+	display:none;
+}
+
+.slideShow{
+	width:100%;
+	height:250px;
+	display:block;
+	margin:1px;
+}
+.newsCorner{
+	width:100%;
+	height:300px;
+	display:block;
+	margin-top:20px;
+	border:0px solid brown;
+	padding:2px;
+}
+.eventPoster{
+	display:none;
+	float:none;
+}
+.updateSectionUL{
+	height:100% auto;
+}
+}
+
+
+
+@media screen and (max-width:650px){
+	.middleBar{
+	border:0px solid black;
+}
+.middleBar .clubName1 .clubName1_4{
+	text-align: right;
+	border:0px solid black;
+	margin-right: 0px !important;
+	font-style: italic;
+}
+
+.middleBar .nitLogo{
+	display:none;
+}
+
+}
+#footer{
+
+        background-color: #dff7e9;
+       }
+#header{
+
+        background-color: #cefacd;
+       }
+#last{ background-color: coral;
+    }

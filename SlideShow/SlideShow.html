@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Slider</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+  </head>
+
+  <body style="background-color: white;width:100%;">
+
+    <!-- Slider Wrapper -->
+    <div class="css-slider-wrapper">
+        <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+        <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+        <input type="radio" name="slider" class="slide-radio3" id="slider_3">
+        <input type="radio" name="slider" class="slide-radio4" id="slider_4">
+        <input type="radio" name="slider" class="slide-radio5" id="slider_5">
+
+      <!-- Slider Pagination -->
+      <div class="slider-pagination">
+        <label for="slider_1" class="page1"></label>
+        <label for="slider_2" class="page2"></label>
+        <label for="slider_3" class="page3"></label>
+        <label for="slider_4" class="page4"></label>
+        <label for="slider_5" class="page5"></label>
+      </div>
+
+      <!-- Slider #1 -->
+      <div class="slider slide-1" style="border:0px solid red;padding:0px">
+        <img src="Images/1.jpeg" alt="" style="width:100%;border:0px solid black;margin: 0px;right: 0px">
+
+        <div class="slider-content" style="padding:0px;position:bottom;bottom:40px;right:500px;font-size:1em;border:0px solid white;width:auto;">
+          <h3 style="color: white">  </h3>
+        </div>
+
+        <div class="number-pagination" style="border:0px solid red;padding:0px">
+          <span>1</span>
+        </div>
+      </div>
+
+      <!-- Slider #2 -->
+      <div class="slider slide-2" style="background-color: lightgrey">
+        <img src="Images/2.jpg" alt="" style="left:0px;right:0px;border:0px solid red;width:100%;">
+        
+        <div class="slider-content" style="padding:0px;position:absolute;bottom:40px;right:500px;font-size:1em;border:0px solid white;width:auto;">
+          <h3 style="color: white">  </h3>
+        </div>
+        <div class="number-pagination">
+          <span>2</span>
+        </div>
+      </div>
+
+      <!-- Slider #3 -->
+      <div class="slider slide-3">
+        <img src="Images/3.jpeg" alt="" style="width:100%;position:absolute;right:0px;">
+        <div class="slider-content" style="display:none;">
+        </div>
+        <div class="slider-content" style="padding:0px;position:absolute;bottom:40px;right:500px;font-size:1em;border:0px solid white;width:auto;">
+          <h3 style="color: white">  </h3>
+        </div>
+        <div class="number-pagination">
+          <span>3</span>
+        </div>
+      </div>
+
+      <!-- Slider #4 -->
+      <div class="slider slide-4">
+        <img src="Images/4.jpeg" alt="" style="width:100%;position: absolute;right:0px;">
+        <div class="slider-content" style="padding:0px;position:absolute;bottom:40px;right:500px;font-size:1em;border:0px solid white;width:auto;">
+          <h3 style="color: white">  </h3>
+        </div>
+        <div class="number-pagination">
+          <span>4</span>
+        </div>
+      </div>
+      <!-- Slider #5 -->
+      <div class="slider slide-5">
+        <img src="Images/5.jpg" alt="" style="width:100%;position: absolute;right:0px;">
+        <div class="slider-content" style="padding:0px;position:absolute;bottom:40px;right:500px;font-size:1em;border:0px solid white;width:auto;">
+          <h3 style="color: white">  </h3>
+        </div>
+        <div class="number-pagination">
+          <span>5</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="jquery.min.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+<style>
+  
+</style>
+</html>
